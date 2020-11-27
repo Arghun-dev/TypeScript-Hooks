@@ -105,20 +105,36 @@ $. npx create-react-app todoapp --template=typescript
 2. next let's structure your project as follow:
 
 `
-├── src
+├
+── src
+
 |  ├── components
+
 |  |  ├── AddTodo.tsx
+
 |  |  └── Todo.tsx
+
 |  ├── containers
+
 |  |  └── Todos.tsx
+
 |  ├── context
+
 |  |  └── todoContext.tsx
+
 |  ├── App.tsx
+
 |  ├── index.css
+
 |  ├── index.tsx
+
 |  ├── react-app-env.d.ts
+
 |  └── type.d.ts
+
 ├── tsconfig.json
+
 ├── package.json
+
 └── yarn.lock
 `
