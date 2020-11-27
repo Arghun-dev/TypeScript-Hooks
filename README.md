@@ -159,6 +159,12 @@ interface ITodo {
   description: string
   status: boolean
 }
+
+type ContextType = {
+  todos: ITodo[]
+  saveTodo: (todo: ITodo) => void
+  updateTodo: (id: number) => void
+}
 ```
 
 As you can see, the interface `ITodo` defines the shape of a to-do object. Next, we have the type `ContextType` that expects an array of to-dos and the methods to add or update a to-do.
