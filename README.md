@@ -110,17 +110,17 @@ $. npx create-react-app todoapp --template=typescript
 
 |  ├── components
 
-|  |  ├── AddTodo.tsx
+|  |    ├── AddTodo.tsx
 
-|  |  └── Todo.tsx
+|  |    └── Todo.tsx
 
 |  ├── containers
 
-|  |  └── Todos.tsx
+|  |    └── Todos.tsx
 
 |  ├── context
 
-|  |  └── todoContext.tsx
+|  |    └── todoContext.tsx
 
 |  ├── App.tsx
 
