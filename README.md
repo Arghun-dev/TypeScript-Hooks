@@ -138,3 +138,27 @@ $. npx create-react-app todoapp --template=typescript
 
 └── yarn.lock
 `
+
+
+**Here, there are two files to underline:**
+
+The `context/todoContext.tsx` file that serves as a context for the project
+The `type.d.ts` file that contains the TypeScript Types. The extension `.d.ts` allows using the types in other files without importing them.
+
+**Create the todo type**
+
+TypeScript Type allows you to define what a variable or function should expect as a value in order to help the compiler catch errors before runtime.
+
+
+`type.d.ts`
+
+```js
+interface ITodo {
+  id: number
+  task: string
+  description: string
+  status: boolean
+}
+```
+
+As you can see, the interface `ITodo` defines the shape of a to-do object. Next, we have the type `ContextType` that expects an array of to-dos and the methods to add or update a to-do.
